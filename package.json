@@ -1,0 +1,20 @@
+{
+  "name": "consumoapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apiCsv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon apiCsv.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "readfile": "^1.0.1",
+    "request": "^2.88.2",
+    "url": "^0.11.0"
+  }
+}
